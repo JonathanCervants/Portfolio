@@ -8,17 +8,16 @@
     <div class="grid grid-cols-1 md:grid-cols-2 gap-10 items-center">
       <div class="space-y-4 text-gray-700 text-lg leading-relaxed">
         <p>
-          Soy <strong>Abogada</strong> con experiencia en Gestión Pública, participación ciudadana y elaboración de proyectos.
+          Ileña de Nacimiento familia de pescadores <strong>Abogada</strong>  con dos hijos, familia de pescadores, fui parte del Comité de Vaso de Leche y Club de Madres. Comprometida con la voz y el futuro de nuestra gente.
         </p>
         <p>
-          Con sólida experiencia en Entidades Públicas <strong>en el área Legal y Proyectos</strong>, enfocada en el cumplimiento normativo, trabajando de manera integra y honesta, con ética y veracidadsino que escalen de manera eficiente y cumplan con los más altos estándares empresariales.
+          Experiencia en Gestión Pública, participación ciudadana y elaboración de proyectos, sólida experiencia en Entidades Públicas <strong>en el área Legal y Proyectos</strong>, enfocada en el cumplimiento normativo, trabajando de manera integra y honesta, con ética y veracidadsino que escalen de manera eficiente y cumplan con los más altos estándares empresariales.
         </p>
         <p>
-          Lidero, una <strong> mi equipo de trabajo de mi Campaña para Diputada por Moquegua.</strong>, tengo firmeza en sacar adelante los proyectos más beneficiosos para la región<strong>Moquegua</strong> entre proyectos para mejorar la distribución y calidad de agua, aplicando la tecnología a desafíos reales y sostenibles.
+          Lidero <strong> mi equipo de Campaña para Diputada con el número 1 por Moquegua.</strong>, tengo firmeza en sacar adelante leyes en beneficio de la región de <strong>Moquegua</strong> y potenciar el desarollo.
         </p>
-        
         <div class="mt-6 inline-block bg-blue-50 border border-blue-200 text-blue-800 px-4 py-2 rounded-lg font-medium">
-          🌍 Nacida en Ilo, Familia Ileña apostando por potenciar la riqueza marina. {relocationDate}.
+          🌍 Nacida en Ilo, Familia Ileña seré la voz de del pueblo en el Congreso. {relocationDate}.
         </div>
       </div>
 
@@ -30,8 +29,8 @@
             class="w-full h-full object-cover"
           />
         </div>
-        <h3 class="font-bold text-xl text-gray-900">Tu Nombre</h3>
-        <p class="text-blue-600 font-medium">Software Quality & AI Data Analyst</p>
+        <h3 class="font-bold text-xl text-gray-900">Clara Hipahuanca Tapia</h3>
+        <p class="text-blue-600 font-medium">Abogada</p>
         <a href="#contacto" class="mt-6 bg-gray-900 text-white px-6 py-2 rounded-full hover:bg-gray-800 transition">
           Contactar
         </a>
