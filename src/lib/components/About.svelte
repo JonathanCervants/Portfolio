@@ -1,9 +1,9 @@
 <script lang="ts">
 	import SocialLinks from "./SocialLinks.svelte";
-  const urlImage = "/clara-fondo-facebo.png?enhanced";
+  import urlImage from '$lib/assets/clara-fondo-facebo.png?enhanced';
   const relocationDate = "Marca la K y Escribe el 1 este 12 de Abril del 2026";
 </script>
-<section id="proyectos">
+<section id="about">
 
   <div class="max-w-4xl mx-auto">
     <div class="w-auto h-auto bg-slate-300 rounded-full mb-4 shadow-inner overflow-hidden border-2 border-white">
@@ -26,7 +26,7 @@
           Experiencia en Gestión Pública, participación ciudadana y elaboración de proyectos, sólida experiencia en Entidades Públicas <strong>en el área Legal y Proyectos</strong>, enfocada en el cumplimiento normativo, trabajando de manera integra y honesta, con ética y veracidadsino que escalen de manera eficiente y cumplan con los más altos estándares empresariales.
         </p>
         <p>
-          Lidero <strong> mi equipo de Campaña para Diputada con el número 1 por Moquegua.</strong>, tengo firmeza en sacar adelante leyes en beneficio de la región de <strong>Moquegua</strong> y potenciar el desarollo.
+          Lidero <strong> mi equipo de Campaña para Diputada con el número 1 por Moquegua</strong>, tengo firmeza en sacar adelante leyes en beneficio de la región de <strong>Moquegua</strong> y potenciar el desarollo.
         </p>
         <div class="mt-6 inline-block bg-blue-50 border border-blue-200 text-blue-800 px-4 py-2 rounded-lg font-medium">
           🌍 Nacida en Ilo, Familia Ileña seré la voz de del pueblo en el Congreso. {relocationDate}.
@@ -46,7 +46,7 @@
         <!-- <a href="#contacto" class="mt-6 bg-gray-900 text-white px-6 py-2 rounded-full hover:bg-gray-800 transition">
           Contactar
         </a> -->
-        <a href="#propuestas" target="_blank" class="hidden md:inline-flex rounded-full items-center bg-white-900 text-red-600 font-semibold hover:text-red-700 transition">
+        <a href="#propuestas" class="md:inline-flex rounded-full items-center bg-white-900 text-red-600 font-semibold hover:text-red-700 transition">
                 Propuestas
             </a>
         <SocialLinks />
