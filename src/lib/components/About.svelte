@@ -6,7 +6,7 @@
 <section id="about">
 
   <div class="max-w-4xl mx-auto">
-    <div class="w-auto h-auto bg-slate-300 rounded-2xlll mb-4 shadow-inner overflow-hidden border-2 border-white">
+    <div class="w-auto h-auto bg-slate-300 rounded-2xl m-4 shadow-inner overflow-hidden border-2 border-white">
           
         <enhanced:img src={urlImage} alt="Clarita Diputada"
           class="w-full object-cover"/>
