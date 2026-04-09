@@ -5,5 +5,5 @@
         titulo: string;
         descripcion: string;
         etiquetas: string[];
-        link: string;
+        link?: string | null;
     }

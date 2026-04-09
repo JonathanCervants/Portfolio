@@ -1,12 +1,24 @@
 <script lang="ts">
-   const relocationDate = "Marca la K y Escribe el 1 este 12 de Abril del 2026";
+	import SocialLinks from "./SocialLinks.svelte";
+  const urlImage = "/clara-fondo-facebo.png?enhanced";
+  const relocationDate = "Marca la K y Escribe el 1 este 12 de Abril del 2026";
 </script>
 <section id="proyectos">
-    <div class="max-w-4xl mx-auto">
-    <h2 class="text-3xl font-bold text-gray-900 mb-6">Sobre Mí</h2>
+
+  <div class="max-w-4xl mx-auto">
+    <div class="w-auto h-auto bg-slate-300 rounded-full mb-4 shadow-inner overflow-hidden border-2 border-white">
+          
+        <enhanced:img src={urlImage} alt="Clarita Diputada"
+          class="w-full object-cover"/>
+    </div>
     
+    <div class="bg-amber-500 text-white rounded-2xl">
+  
+    <h1 class="pl-4">Bienvenidos</h1>
+    <h2 class="pl-5 text-3xl font-bold text-white-900 mb-6">Sobre Mí</h2>
+    </div>    
     <div class="grid grid-cols-1 md:grid-cols-2 gap-10 items-center">
-      <div class="space-y-4 text-gray-700 text-lg leading-relaxed">
+      <div class="space-y-4 px-5 text-gray-700 text-lg leading-relaxed">
         <p>
           Ileña de Nacimiento familia de pescadores <strong>Abogada</strong>  con dos hijos, familia de pescadores, fui parte del Comité de Vaso de Leche y Club de Madres. Comprometida con la voz y el futuro de nuestra gente.
         </p>
@@ -31,10 +43,15 @@
         </div>
         <h3 class="font-bold text-xl text-gray-900">Clara Hipahuanca Tapia</h3>
         <p class="text-blue-600 font-medium">Abogada</p>
-        <a href="#contacto" class="mt-6 bg-gray-900 text-white px-6 py-2 rounded-full hover:bg-gray-800 transition">
+        <!-- <a href="#contacto" class="mt-6 bg-gray-900 text-white px-6 py-2 rounded-full hover:bg-gray-800 transition">
           Contactar
-        </a>
+        </a> -->
+        <a href="#propuestas" target="_blank" class="hidden md:inline-flex rounded-full items-center bg-white-900 text-red-600 font-semibold hover:text-red-700 transition">
+                Propuestas
+            </a>
+        <SocialLinks />
       </div>
     </div>
   </div>
 </section>
+

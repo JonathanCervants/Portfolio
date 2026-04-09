@@ -10,29 +10,29 @@
   const services: Service[] = [
     {
       id: 1,
-      title: "QA Automation & Liderazgo Técnico",
-      description: "Diseño e implementación de estrategias de pruebas (QA Lead) y gestión de proyectos (PMO) para asegurar entregas de software robustas y sin errores.",
+      title: "Desarrollo Sostenible",
+      description: "Impulsar leyes para proyectos como el Megapuerto que nos permitan ser ejes estrategicos de la región.",
       icon: "🛡️", 
-      stack: ["Automatización", "Documentación", "Gestión de Equipos"]
+      stack: ["Desarrollo", "Innovación", "Liderazgo"]
     },
     {
       id: 2,
-      title: "Arquitectura Cloud & Backend",
-      description: "Desarrollo de APIs escalables y automatización de flujos de trabajo empresariales para optimizar procesos y reducir tiempos operativos.",
+      title: "Seguridad Ciudadana",
+      description: "Leyes que nos permitan salvaguardar la vida de las personas, con firmeza e inteligencia.",
       icon: "☁️",
-      stack: ["Microsoft Azure", "NestJS / TypeScript", "n8n", "Power Apps"]
+      stack: ["Acción", "Prevención", "Inteligencia", "Estrategia"]
     },
     {
       id: 3,
-      title: "Data Analytics & Machine Learning",
-      description: "Construcción de modelos predictivos y análisis de datos complejos, aplicados a la toma de decisiones estratégicas y gestión medioambiental.",
+      title: "Salud y Seguros para mejorar la calidad de Vida",
+      description: "Leyes para los más necesitados para que tenga una mejor calidad de vida.",
       icon: "🧠",
-      stack: ["Python", "Machine Learning", "Análisis de Datos"]
+      stack: ["Seguro", "Protección", "Bienestar"]
     }
   ];
 </script>
-<section id="proyectos">
-    <div class="max-w-6xl mx-auto">
+<section id="proyecto">
+    <div class="max-w-6xl mx-14 mt-14">
         <div class="text-center mb-12">
             <h2 class="text-3xl font-bold text-gray-900">Ejes Estratégicos</h2>
             <p class="text-gray-600 mt-4 max-w-2xl mx-auto">
@@ -51,7 +51,7 @@
                     </p>
           
                     <div class="flex flex-wrap gap-2">
-                        {#each service.stack as tech}
+                        {#each service.stack as tech (tech)}
                         <span class="bg-blue-50 text-blue-700 text-xs font-semibold px-3 py-1 rounded-full">
                             {tech}
                         </span>
