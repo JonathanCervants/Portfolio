@@ -6,12 +6,12 @@ export const proyectos : Proyecto[] = [
         titulo: "Impacto Económico e Industrial: El Megapuerto de Ilo",
         descripcion: "LEY QUE PROMUEVA LA CONSTRUCCIÓN DE UN MEGA PUERTO QUE GENERE TRABAJO PARA LA POBLACIÓN LOCAL",
         etiquetas: ["Moquegua", "Ilo", "MegaPuerto", "Industria"],
-        tipo: "Destacado"
+        tipo: "Promover Capacitación Técnica Empleo Juventudes"
     },
     {
         id: "2",
         titulo: "LEY QUE PROMUEVA PROYECTOS DE DESARROLLO URBANO Y RURAL.",
-        descripcion: "Leyes que beneficien a la población más necesitada cubriendo su salud y bienenstar.",
+        descripcion: "Leyes que beneficien a la población más necesitada cubriendo su salud y bienestar.",
         etiquetas: ["Empleo", "Seguridad", "Alimentación"],
         link: "https://www.youtube.com/@ingenia.cervantes", // Link a tu canal
         tipo: "Generación de Empleo"
@@ -43,7 +43,8 @@ export const proyectos : Proyecto[] = [
     {
         id: "6",
         titulo: "Seguros y Atención Médica",
-        descripcion: "PROMOVER QUE LA ATENCIÓN A PACIENTES ONCOLÓGICOS SE DE CON CELERIDAD BRINDANDO EL APOYO CORRESPONDIENTE.",
+        descripcion:
+         "PROMOVER QUE LA ATENCIÓN A PACIENTES ONCOLÓGICOS SE DE CON CELERIDAD BRINDANDO EL APOYO CORRESPONDIENTE. LUCHAR POR UN SEGURO SOCIAL PARA LOS PESCADORES",
         etiquetas: ["Salud", "Oncológicos", "Atención"],
         link: "https://www.youtube.com/@ingenia.cervantes",
         tipo: "Bienestar"
